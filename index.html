@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohan Bose | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b25a059447.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Images/Logo.png" class="logo" alt="Logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Machine Learning and Deep Learning Developer</p>
+        <h1>Hi, I'm <span>Rohan</span><br>from West Bengal</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/mypic.png" alt="Profile Picture">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Dynamic and results-driven Core Java Developer with expertise in Generative AI, Machine Learning, and SQL. Proven ability to design and deploy scalable AI-driven applications and software systems. Adept at delivering impactful solutions through collaboration, problem-solving, and prompt engineering.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Java, SQL, Data Structures, Algorithms</span></li>
+              <li><span>Generative AI, NLP, Prompt Engineering</span></li>
+              <li><span>Machine Learning, Deep Learning</span></li>
+              <li><span>Web Development, Git & GitHub</span></li>
+              <li><span>Tools: VS Code, Colab, Overleaf, AutoCAD, Canva</span></li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Content Writer Intern - TeamEverest (Feb–Mar 2024)</span></li>
+              <li><span>Railway Reservation System Developer (Feb–Mar 2024)</span></li>
+              <li><span>AI Research Projects & Deployments (2024–Present)</span></li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>B.Tech CSE, KIIT University (2022–2026)</span> — CGPA: 8.35</li>
+              <li><span>12th, Kendriya Vidyalaya (2021–22)</span> — 80%</li>
+              <li><span>10th, Kendriya Vidyalaya (2019–20)</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-brands fa-java"></i>
+          <h2>Java API Development</h2>
+          <p>End-to-end API development using Java and MySQL.</p>
+          <a href="#contact">Contact Me</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-pen-nib"></i>
+          <h2>Content Writing</h2>
+          <p>SEO-friendly, technical and non-technical content writing.</p>
+          <a href="#contact">Contact Me</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-brain"></i>
+          <h2>Generative AI</h2>
+          <p>AI model creation with Dreambooth, Stable Diffusion, NLP models.</p>
+          <a href="#contact">Let's Collaborate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/project1.png" alt="Railway Reservation">
+          <h3>Railway Reservation System</h3>
+          <p>Java-based GUI system with MySQL backend.</p>
+        </div>
+        <div class="work">
+          <img src="Images/project2.jpg" alt="AI Model">
+          <h3>My-Pet-Dog Text-to-Image Generator</h3>
+          <p>Built using Dreambooth and Stable Diffusion with 16+ downloads.</p>
+        </div>
+        <div class="work">
+          <img src="Images/project3.jpg" alt="Traffic Detection">
+          <h3>Traffic Anomaly Detection</h3>
+          <p>DL-based video surveillance with CNN-RNN and ResNet50.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-phone"></i> +91-9123032676</p>
+          <p><i class="fa-solid fa-paper-plane"></i> rbose7236@gmail.com</p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/rohan-bose-328b58278/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://huggingface.co/rohanbose"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="Images/Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname){
+      for (let tablink of tablinks) tablink.classList.remove("active-link");
+      for (let tabcontent of tabcontents) tabcontent.classList.remove("active-tab");
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+<button id="theme-toggle"></button>
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+  });
+</script>
+
+  
+
+  
+</body>
+</html>
